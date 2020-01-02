@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>This is Home Page.</p>
+    <p>This is BBBB Home Page.</p>
     <router-link to="/about">Go to About page.</router-link>
   </div>
 </template>
