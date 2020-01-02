@@ -3,7 +3,7 @@ ports:
 - port: 3000
   onOpen: open-browser
 tasks:
-# vueに必要なパッケージをインストール
-- command: "yarn add vue && yarn add -D webpack webpack-cli vue-loader vue-router vue-template-compiler"
 # プレビュー確認用にhttpサーバー起動
 - command: "python3 -m http.server 3000"
+# vueに必要なパッケージをインストール
+- command: "yarn add vue && yarn add -D webpack webpack-cli vue-loader vue-router vue-template-compiler"
